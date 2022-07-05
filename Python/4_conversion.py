@@ -1,9 +1,9 @@
-# birth_year = input('Birth year: ') #input always will set the variable to string, Ex.: '2005' ≠ 2005 (string ≠ integer)
-# print(type(birth_year))
-# age = 2022 - int(birth_year)
-# print(age)
-# print(type(age))
-# print('')
+birth_year = input('Birth year: ') #input always will set the variable to string, Ex.: '2005' ≠ 2005 (string ≠ integer)
+print(type(birth_year))
+age = 2022 - int(birth_year)
+print(age)
+print(type(age))
+print('')
 
 
 #type() -> show the type of the variable 
