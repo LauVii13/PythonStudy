@@ -6,7 +6,7 @@ print(type(age))
 print('')
 
 
-#type() -> show the type of the variable 
+# type() -> show the type of the variable 
 # Ways to convert string to: 
 # integer -> int()
 # float -> float()

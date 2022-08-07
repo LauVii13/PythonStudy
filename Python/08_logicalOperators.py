@@ -12,7 +12,7 @@ if has_high_income and has_good_credit:
 # ---------------------------------
 # AND -> both conditions should be true to return true
 # OR -> at least one condition should be true to return true
-# NOT -> iverses any boolean value; how to use? --> not variable (for example, not has_high_income)
+# NOT -> inverses any boolean value; how to use? --> not variable (for example, not has_high_income)
 # ---------------------------------
 # IF - - - - - - - - -> RETURNS
 # ---------------------------------

@@ -1,10 +1,5 @@
-from lib2to3.pytree import convert
-
-
 weight = float(input('Weight: '))
 i = input('(L)bs or (K)g: ')
-
-
 
 if i.upper() == 'L':
     n = weight / 2.2

@@ -1,6 +1,3 @@
-from cgi import print_form
-
-
 print(10 + 3) # 13
 print(10 - 3) # 7
 print(10 * 3) #returns the result of multiplication -> 30
@@ -21,7 +18,3 @@ x /= 3 # x = x / 3
 x //= 3 # x = x // 3
 x %= 3 # x = x % 3
 x **= 3 # x = x ** 3
-
-
-
-
