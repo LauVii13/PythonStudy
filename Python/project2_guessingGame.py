@@ -13,5 +13,5 @@ while i <= guess_limit:
         break
     i += 1
 
-else:
+else: #in python, while can have a else tag -> if the while was finished completely, without a break or something like that, the 'else' will run
     print("Sorry, you failed!")
