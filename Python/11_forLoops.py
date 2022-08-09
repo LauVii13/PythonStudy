@@ -44,3 +44,18 @@ for i in prices:
     n += i
 
 print(f"The total value is {n} dollars")
+
+# =====================================================================================================================================================================#
+
+# Challenge
+# Draw that 'F' using for loop
+# xxxxx
+# xx
+# xxxxx
+# xx
+# xx
+
+numbers = [5, 2, 5, 2, 2]
+
+for i in numbers:
+    print('x' * i)
