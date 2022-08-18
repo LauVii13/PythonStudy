@@ -22,3 +22,10 @@ for i in numbers:
     if x <= i:
         x = i
 print(x)
+
+# =====================================================================================================================================================================#
+
+# You can unpacking a list, as in the example below
+
+a, b, c, d, e, f, g, h, i = numbers
+print(a, b, c, d, e, f, g, h, i)
