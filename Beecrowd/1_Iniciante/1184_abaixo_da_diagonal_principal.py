@@ -12,7 +12,7 @@ soma = 0
 cont = 0
 for i in range(12):
     for j in range(12):
-        if j > i:
+        if j < i:
             soma += matriz[i][j]
             cont += 1
 
