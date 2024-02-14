@@ -1,26 +1,24 @@
 n = int(input())
 lista = list(map(int, input().split()))
 
-pref = [0] * (n + 1)
-suf = [0] * (n + 1)
-
-for i in range(n):
-    pref[i + 1] = lista[i] + pref[i]
-    suf[-i - 2] = lista[i - 1] + suf[-i - 1]
-
-result = 0
-ini = 0
+sum1 = 0
+sum2 = 0
+ini = -1
 fim = n
 
-while ini <= fim:
-    if pref[ini] == suf[fim]:
-        result = pref[ini]
+result = 0
+while ini < fim:
+    if sum1 == sum2:
+        result = sum1
         ini += 1
         fim -= 1
-
-    while pref[ini] < suf[fim]:
+        sum1 += lista[ini]
+        sum2 += lista[fim]
+    elif sum1 < sum2:
         ini += 1
-    while pref[ini] > suf[fim]:
+        sum1 += lista[ini]
+    else:
         fim -= 1
+        sum2 += lista[fim]
 
 print(result)
