@@ -1,3 +1,4 @@
+# wa - questao nao resolvida
 def buscabin(lista, k):
     i = 0
     j = len(lista) - 1
