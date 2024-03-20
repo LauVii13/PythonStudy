@@ -2,14 +2,8 @@ n, m = map(int, input().split())
 a = list(map(int, input().split()))
 b = list(map(int, input().split()))
 
-num_zeros_b = b.count(0)
-
-b = [elem for elem in b if elem != 0]
-
-num_zeros_a = min(num_zeros_b, a.count(0))
-for i in range(num_zeros_a):
-    a.pop(a.index(0))
-
+a.sort()
+b.sort()
 
 resposta = 0
 mudou = False
