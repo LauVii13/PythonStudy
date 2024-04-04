@@ -46,9 +46,15 @@ while fila:
 
 resposta1.reverse()
 r = resposta1 + resposta2
+if r[0] == r[1]:
+    r.pop(0)
+if r[-1] == r[-2]:
+    r.pop(-1)
+
 if len(r) < 4:
     print("IMPOSSÍVEL")
 else:
+
     resp = ""
     print(len(r))
     for i in range(len(r) - 1):
